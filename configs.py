@@ -36,3 +36,5 @@ dict_nombres_nuevos = {
 lista_columnas_necesarias = lista_nombres_nuevos + list(dict_nombres_nuevos.values())
 
 barrios = ['Palermo', 'Villa Urquiza', 'Villa Crespo']
+
+#Hola estoy probando
