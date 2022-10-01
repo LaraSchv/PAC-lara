@@ -37,10 +37,6 @@ lista_columnas_necesarias = lista_nombres_nuevos + list(dict_nombres_nuevos.valu
 
 barrios = ['Palermo', 'Villa Urquiza', 'Villa Crespo']
 
-<<<<<<< HEAD
 #prueba commit Lenny
-=======
-#prueba Lenny desde casa
->>>>>>> 4d8e2a0a5a3f6fc2d283263d928056e5d56b6239
 
 #prueba Lenny 3
