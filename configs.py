@@ -1,6 +1,11 @@
-lista_nombres_nuevos = [
+lista_columnas_fijas = [
         'marca temporal',
-        'nombre de usuario', 
+        'nombre de usuario',
+        'retirar',
+        'fechas entrega'
+]
+
+lista_columnas_productos = [
         'choclo',
         'palta',
         'tomate perita',
@@ -22,9 +27,10 @@ lista_nombres_nuevos = [
         'banana',
         'mango',
         'arandanos',
-        'jengibre',
-        'retirar'
+        'jengibre'
 ]
+
+lista_nombres_nuevos = lista_columnas_fijas + lista_columnas_productos
 
 dict_nombres_nuevos = {
         'bolson de verduras verdes': 'bolson de verdes',
@@ -33,6 +39,7 @@ dict_nombres_nuevos = {
         'combo citrico': 'bolson citricos'
 }
 
+lista_nombres_nuevos.remove('fechas entrega')
 lista_columnas_necesarias = lista_nombres_nuevos + list(dict_nombres_nuevos.values())
 
 barrios = ['Palermo', 'Villa Urquiza', 'Villa Crespo']
